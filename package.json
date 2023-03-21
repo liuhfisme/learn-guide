@@ -1,0 +1,15 @@
+{
+  "name": "learn-guide",
+  "version": "1.0.0",
+  "description": "the learn guide docs.",
+  "main": "index.js",
+  "author": "刘飞飞 <liufeifei02@beyondsoft.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.61"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
